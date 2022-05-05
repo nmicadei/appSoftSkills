@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'softskill1',
+    loadChildren: () => import('./softskill1/softskill1.module').then( m => m.Softskill1PageModule)
+  },
+  {
+    path: 'softskill2',
+    loadChildren: () => import('./softskill2/softskill2.module').then( m => m.Softskill2PageModule)
+  },
 ];
 
 @NgModule({
