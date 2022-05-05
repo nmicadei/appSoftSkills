@@ -26,7 +26,18 @@
   text-decoration: none;
 }
 
+ion-content{
+  --background: linear-gradient(#e9b1be, #f1f3be, #b6fdff, #dcc1fa);
+}
+
+.coracao{
+  --background: linear-gradient();
+}
+
 .cardzin{
+  --background: #efe8f7;
+}
 
-
+.cabeca{
+  --background: #dec9f5;
 }
