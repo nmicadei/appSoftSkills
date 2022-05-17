@@ -1,0 +1,70 @@
+
+
+<ion-content>
+
+  <ion-item class="guia">
+    <ion-icon name="arrow-back-sharp" slot="start"></ion-icon>
+    <ion-thumbnail slot="start">
+      <img src="../assets/avatar.png">
+    </ion-thumbnail>
+    <ion-label>Tom
+
+    </ion-label>
+    <ion-icon name="videocam" slot="end"></ion-icon>
+    <ion-icon name="call" slot="end"></ion-icon>
+    <ion-icon name="ellipsis-vertical" slot="end"></ion-icon>
+
+  </ion-item>
+  <br>
+
+
+  <ion-card class="men">
+    <ion-card-content>
+      <ion-text>Olá! Meu nome é Tom e hoje eu irei ajudar você a aprimorar suas habilidades de comunicação com algumas dicas simples.</ion-text>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="men">
+    <ion-card-content>
+      <ion-text>Use uma linguagem simples e direta. Muitas vezes, achamos que, para “falar bonito”, precisamos usar palavras difíceis e longas frases. Mas não é bem assim. O objetivo da boa comunicação é ser entendido, não impressionar.</ion-text>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="men">
+    <ion-card-content>
+      <ion-text>Da mesma forma, falar bem não é falar muito, nem o tempo todo. Precisamos aprender a ouvir o que os interlocutores nos dizem. É comum que a gente mal preste atenção porque ficamos pensando já no que iremos responder. Isso acaba com a comunicação efetiva. Por isso, faça o exercício de parar, escutar e entender o que estão tentando dizer. Só depois disso responda.</ion-text>
+
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-card class="men">
+    <ion-card-content>
+      <ion-text>Não culpe a outra pessoa por não entender o que você falou. Em vez disso, procure maneiras de esclarecer ou reformular o que você está tentando dizer para que possa ser compreendido. Pergunte também o que não ficou claro e deixe os outros à vontade para te fazerem mais questões.</ion-text>
+
+    </ion-card-content>
+  </ion-card>
+
+
+
+  <ion-tabs class="tab">
+    <ion-tab-bar slot="bottom" class="tab">
+      <ion-tab-button tab="Gostei">
+        <ion-icon name="thumbs-up-outline"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="Não gostei">
+        <ion-icon name="thumbs-down-outline"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="Próxima habilidade" [routerLink]="['../softskill4']" routerLinkActive="router-link-active">
+        <ion-icon name="send-outline"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+</ion-tabs>
+
+
+</ion-content>
+
+
+

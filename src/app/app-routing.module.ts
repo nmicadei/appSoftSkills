@@ -18,7 +18,19 @@ const routes: Routes = [
   {
     path: 'softskill2',
     loadChildren: () => import('./softskill2/softskill2.module').then( m => m.Softskill2PageModule)
+  },  {
+    path: 'softskill3',
+    loadChildren: () => import('./softskill3/softskill3.module').then( m => m.Softskill3PageModule)
   },
+  {
+    path: 'softskill4',
+    loadChildren: () => import('./softskill4/softskill4.module').then( m => m.Softskill4PageModule)
+  },
+  {
+    path: 'softskill5',
+    loadChildren: () => import('./softskill5/softskill5.module').then( m => m.Softskill5PageModule)
+  },
+
 ];
 
 @NgModule({
