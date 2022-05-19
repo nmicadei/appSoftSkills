@@ -4,14 +4,17 @@
   border-radius: 40px;
   --background: rgb(255, 233, 255);
 
+
 }
 
 .guia{
   --background: rgb(97, 60, 156);
+
 }
 
 .tab{
   --background: rgb(97, 60, 156);
+  position: sticky;
 }
 
 ion-content{

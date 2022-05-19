@@ -1,9 +1,89 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>softskill4</ion-title>
+  <ion-toolbar color="cabeça">
+    <ion-icon name="arrow-back-sharp" slot="start" [routerLink]="['../softskill2']" routerLinkActive="router-link-active"></ion-icon>
+    <ion-title>Flexibilidade</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-card class="dahora">
+
+
+    <ion-card-content class="">
+      <ion-item class="dahora">
+        <ion-icon name="chevron-down-outline" slot="start"></ion-icon>
+        <p id="nome">Tocando da sua biblioteca</p>
+        <ion-icon name="ellipsis-vertical" slot="end"></ion-icon>
+
+
+
+      </ion-item>
+      <ion-item class="dahora">
+        <img src="https://i.scdn.co/image/ab67616d0000b2731a5067891e912d99b31f813b" alt="">
+      </ion-item>
+
+      <ion-item class="dahora">
+        <h2>Unfold</h2>
+        <br>
+
+
+        <ion-icon name="heart-outline" slot="end"></ion-icon>
+
+      </ion-item>
+
+
+        <ion-item class="dahora">
+          <ion-icon name="caret-forward-circle-outline" slot="start"></ion-icon>
+          <ion-range color="danger" [pin]="true"></ion-range>
+          <ion-icon name="play-skip-forward-circle-outline" slot="end" [routerLink]="['../softskill5']" routerLinkActive="router-link-active"></ion-icon>
+        </ion-item>
+        <br>
+
+        <!-- Use a trigger -->
+      <ion-button id="trigger-button">Click to open lyrics</ion-button>
+      <ion-modal trigger="trigger-button" [swipeToClose]="true" id="modal">
+
+        <ng-template>
+          <ion-content>Quando se trata de flexibilidade no trabalho, pode-se dizer que existem dois significados;
+            primeiro, quando nos referimos às empresas que saem do tradicional e optam por menos rigidez, como horários
+            mais flexíveis, home-office, vestuário casual, autonomia no comprimento de metas, entre outros; e, segundo,
+            quando se tem pessoas profissionais flexíveis às mudanças no mercado de trabalho e capazes de se adaptar em
+            qualquer cenário.
+            <br><br>
+            As pessoas profissionais que exercem a flexibilidade no trabalho se destacam no mercado, uma vez que elas
+            demonstram algumas qualidades fundamentais para uma boa convivência dentro de uma empresa.
+            <br><br>
+
+            Pessoas flexíveis são empáticas, ou seja, são capazes de se colocar no lugar da outra pessoa e olhar
+            além do ponto de vista individual. Tal característica facilita as relações interpessoais e, consequentemente,
+            o trabalho em equipe. Além disso, elas compartilham novos conhecimentos e são capazes de ouvir opiniões distintas.
+            Logo, as informações são difundidas e os atritos são evitados.
+
+            <br><br>
+
+            Aqui vão algumas dicas para praticar a flexibilidade: Livre-se da postura defensiva, execute novas funções, desenvolva novas estratégias e pratique a resiliência.
+            <br>
+            <br>
+            <br>
+
+
+          </ion-content>
+        </ng-template>
+      </ion-modal>
+
+
+
+
+
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+
+
+
 
 </ion-content>

@@ -1,0 +1,28 @@
+.hey{
+
+  font-style: bold;
+  font-size: 50px;
+  font-family: 'Zen Loop', cursive;
+  margin-left: 70px
+
+}
+
+.data{
+
+
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+
+ion-content{
+  --background: linear-gradient(#b6fdff, #dcc1fa);
+}
+
+.ion-text-wrap{
+  --background: #ffffff;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&family=Open+Sans:wght@300&family=Zen+Loop&display=swap');

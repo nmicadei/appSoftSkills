@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Softskill4Page implements OnInit {
 
+  modalTitle: string;
+  modelId: number;
+
   constructor() { }
 
   ngOnInit() {
